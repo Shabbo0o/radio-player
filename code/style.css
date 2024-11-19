@@ -1,0 +1,44 @@
+body {
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 0px 0px;
+}
+
+.container {
+    display: grid;
+    gap: 10px 10px;
+    grid-template-columns: 200px 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+    border: 1px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.image-container {  
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 10px;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+.channel-name {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding: 20px 40px;
+    font-size: 24px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.channel-audio {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding: 20px 40px;
+}
+
